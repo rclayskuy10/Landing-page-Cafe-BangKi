@@ -1,3 +1,56 @@
+/**
+ * ╔═══════════════════════════════════════════════════════════════╗
+ * ║  © 2024-2025 Riski (rclayskuy10)                             ║
+ * ║  Landing Page Café BangKi - JavaScript                       ║
+ * ║  ───────────────────────────────────────────────────────────  ║
+ * ║  ⚠️  PROTECTED BY COPYRIGHT - ALL RIGHTS RESERVED            ║
+ * ║                                                               ║
+ * ║  PERINGATAN:                                                 ║
+ * ║  Script ini dilindungi hak cipta. Penggunaan, modifikasi,    ║
+ * ║  atau distribusi tanpa izin adalah ILEGAL dan dapat          ║
+ * ║  dikenakan sanksi hukum.                                     ║
+ * ║                                                               ║
+ * ║  Lisensi: https://saweria.co/riski2000                       ║
+ * ║  Template ID: CAFE-BANGKI-2025-RCL                           ║
+ * ╚═══════════════════════════════════════════════════════════════╝
+ */
+
+// Anti-Tampering Console Warning
+console.log('%c⚠️ PERINGATAN HAK CIPTA ⚠️', 'color: red; font-size: 20px; font-weight: bold;');
+console.log('%cTemplate ini dilindungi hak cipta © 2024-2025 Riski (rclayskuy10)', 'color: orange; font-size: 14px;');
+console.log('%cMengubah atau menghapus watermark adalah ILEGAL', 'color: red; font-size: 12px;');
+console.log('%cLisensi: https://saweria.co/riski2000', 'color: blue; font-size: 12px;');
+console.log('%c═══════════════════════════════════════════════════════════', 'color: gray;');
+
+// Copyright Protection - DO NOT REMOVE
+(function() {
+    'use strict';
+    const templateId = 'CAFE-BANGKI-2025-RCL';
+    const developer = 'Riski (rclayskuy10)';
+    
+    // Watermark verification
+    setInterval(function() {
+        const credit = document.querySelector('.developer-credit');
+        if (!credit || credit.style.display === 'none' || credit.style.visibility === 'hidden') {
+            console.error('⚠️ COPYRIGHT VIOLATION DETECTED!');
+            console.error('Watermark removal is illegal. Template ID:', templateId);
+        }
+    }, 5000);
+    
+    // Console protection message
+    Object.defineProperty(window, 'templateInfo', {
+        get: function() {
+            return {
+                id: templateId,
+                developer: developer,
+                copyright: '© 2024-2025',
+                license: 'https://saweria.co/riski2000',
+                warning: '⚠️ This template is protected by copyright law'
+            };
+        }
+    });
+})();
+
 // Smooth Scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

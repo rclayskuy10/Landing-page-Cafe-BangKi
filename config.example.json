@@ -1,0 +1,28 @@
+{
+  "cafe": {
+    "name": "Café BangKi",
+    "tagline": "Taste the Perfect Blend"
+  },
+  "contact": {
+    "phone": "+62 XXX XXXX XXXX",
+    "whatsapp": "+62XXXXXXXXXXX",
+    "email": "contact@cafebangki.com"
+  },
+  "location": {
+    "address": "Jl. Contoh No. XXX",
+    "city": "Kota Anda",
+    "province": "Provinsi",
+    "postalCode": "XXXXX",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=..."
+  },
+  "socialMedia": {
+    "instagram": "your_instagram",
+    "facebook": "your_facebook",
+    "twitter": "your_twitter",
+    "youtube": "your_youtube"
+  },
+  "hours": {
+    "weekday": "07:00 - 22:00",
+    "weekend": "08:00 - 23:00"
+  }
+}

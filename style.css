@@ -567,65 +567,6 @@ html {
     color: #999;
 }
 
-/* Developer Credit - DO NOT REMOVE */
-.developer-credit {
-    margin-top: 25px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    font-size: 13px;
-    color: #999;
-}
-
-.developer-credit p {
-    margin: 5px 0;
-}
-
-.developer-credit a {
-    color: var(--accent-color);
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
-
-.developer-credit a:hover {
-    color: var(--white);
-    text-decoration: underline;
-}
-
-.template-id {
-    font-size: 11px;
-    color: #666;
-    font-family: 'Courier New', monospace;
-    letter-spacing: 0.5px;
-}
-
-/* Watermark Protection */
-body::before {
-    content: "© 2024-2025 Riski - rclayskuy10 | Protected Template";
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.85);
-    color: rgba(255, 255, 255, 0.3);
-    text-align: center;
-    padding: 3px 10px;
-    font-size: 10px;
-    font-family: 'Courier New', monospace;
-    z-index: 9999;
-    pointer-events: none;
-    letter-spacing: 1px;
-}
-
-/* Anti-Tampering Protection */
-.developer-credit,
-.template-id {
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
-
 /* Scroll to Top Button */
 .scroll-to-top {
     position: fixed;
